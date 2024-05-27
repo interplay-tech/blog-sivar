@@ -23,8 +23,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight  text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                Piero Hincapié y el Leverkusen por la final de Europa League
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -40,7 +39,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-white">
-                          By <span>Musharof Chy</span>
+                          Por <span>David Luciano Buelvas </span>
                         </span>
                       </div>
                     </div>
@@ -64,7 +63,7 @@ const BlogDetailsPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        12 Jan 2024
+                      17 mayo, 2024
                       </p>
                       <p className="mr-5 flex items-center text-base font-medium text-white">
                         <span className="mr-3">
@@ -102,75 +101,91 @@ const BlogDetailsPage = () => {
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      Actualidad
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  Todo está listo para que vivamos una final vibrante de la UEFA Europa League, donde dos estilos de juego muy vistosos, se enfrentarán este 22 de mayo a las 14:00 horas en el Estadio Aviva de Irlanda. Por un lado está el Atalanta, conocido por su fútbol ofensivo y dinámico, con un largo proceso bajo las órdenes de Gasperini. Mientras que por el otro, un Bayer Leverkusen, caracterizado por su orden táctico y su eficacia con la pelota, buscará conseguir bajo la batuta de Xabi Alonso y el liderazgo del ecuatoriano Piero Hincapié, su segundo título internacional de la historia.
+
+
                   </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Acompáñanos en este análisis donde hablaremos de los clubes implicados, datos, estadísticas y cuotas para tus pronósticos deportivos. ¡Vamos!
+
+
+                  </p>
+
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/final.png"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  Análisis del Partido
+                  </h3>
                   <p className="mb-8 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                  Atalanta vs Bayer Leverkusen es un duelo que enfrenta a dos estilos de juego muy atractivos. Los italianos, tienen varios años implementando un juego ofensivo y flexible bajo la dirección de Gian Piero Gasperini, que prima el ataque por sobre todas las cosas. Con un 3-5-2 que suele variar a 3-4-3 o un 3-5-1, según requiera la situación, se espera que los de Bérgamo busquen hacerse con el balón para tratar de infringir daño en el rival.
+                
+                  </p>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Por su parte el Bayer Leverkusen, bajo la tutela de Xabi Alonso y con presencia de Piero Hincapié, ha mostrado un estilo más equilibrado y táctico. Los alemanes suelen amoldarse a la necesidad del juego y se sienten cómodos tanto en un rol protagónico como cediendo la iniciativa al rival.                
+                  </p>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  El entrenador español tiene una formación de juego muy similar a la de Gasperini y posiblemente estemos hablando de formaciones espejo en donde ambos conjuntos se defenderán con tres centrales, aprovechando los carrileros para tener amplitud de campo, con dos mediapunta de mucha movilidad y un centro atacante de referencia.                
+                  </p>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  ¡Sin duda nos espera un auténtico partidazo! Aquí puedes registrarte para apostar en Ecuabet si aún no lo has hecho.                
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                   
                   </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  Cómo llegan a la final de la Europa League
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Ambos conjuntos han tenido una temporada estupenda. El Bayer Leverkusen logró ganar la Bundesliga, desbancando al Bayern Múnich que había conseguido 11 campeonatos al hilo. Los de Xabi Alonso son la revelación del año en Europa, con figuras como Florian Wirtz, Alejandro Grimaldo, Piero Hincapié, Jeremie Frimpong y Victor Boniface.
                   </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Además el Leverkusen está en la final de la Copa de Alemania, que disputará con el FC Kaiserslautern este 25 de mayo, tres días después de la definición de la Europa League.
+                   </p>
+                   <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                   En cuanto al Atalanta, su rendimiento en liga italiana ha sido acorde a su plantilla, ubicándose en el 5° puesto a falta de tres fechas para culminar la Serie A. De momento se encuentra el equipo negriazul está clasificado a Europa League, pero 4 puntos le separan de la Juventus que temporalmente tiene la última plaza que da acceso a la Champions League.
+                   </p>
+                   <h3 className="font-xl mb-10 font-bold leading-tight text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                   Recomendaciones sobre mercados de apuestas
+                  </h3>
                   <ul className="mb-10 list-inside list-disc text-white">
                     <li className="mb-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                    Ambos Equipos Anotarán: Dada la calidad ofensiva de ambos equipos, podría ser una apuesta segura. En Ecuabet esta opción está cotizada en 1.90.
                     </li>
                     <li className="mb-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                    Corners: Ambos equipos utilizan las bandas eficazmente, lo que podría resultar en un número alto de corners.
                     </li>
                     <li className="mb-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                    Tarjetas: En una final, las emociones están a flor de piel, lo que podría llevar a una mayor cantidad de tarjetas amarillas o rojas.
                     </li>
                     <li className="mb-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                    1 x 2: Este mercado siempre será atractivo ya que define al ganador del encuentro, en Ecuabet las cuotas están: 4.50 Atalanta; 3.80 empate; 1.73 el Bayer Leverkusen.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-white sm:text-lg lg:text-base xl:text-lg">
+                    Ganador de la final: Esta apuesta es distinta al 1 x 2 porque no define la resolución del partido en 90 minutos, sino que abarca tiempo extra y penales. 2.90 papa el Atalanta, y 1.43 el equipo de Piero Hincapié.
+
                     </li>
                   </ul>
+
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  ¡No te pierdas esta gran cita!
+                  </h3>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    La final de la Europa League entre Atalanta y Bayer Leverkusen se perfila como un enfrentamiento apasionante, lleno de tácticas interesantes y duelos individuales muy fuertes en donde probablemente esté la clave del partido. Con ambos equipos buscando hacer historia, prepárate para vivir un cotejo lleno de fútbol de alta calidad y momentos emocionantes.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -314,9 +329,10 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Reclama aquí tu bono de regalo por bienvenida y arma tu jugada con Ecuabet.
+                  </p>
+                  <p className="mb-10 text-base font-medium leading-relaxed text-white sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  También te puede interesar: Todo está listo para la Final de la Champions ¡Prográmate!
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">

@@ -15,11 +15,11 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Descifrar cripto
+                  Sivar University
 
                 </h1>
                 <p className="text-white mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                Aprende más sobre criptos, blockchain, análisis de mercado, nuevos tokens y los protocolos más recientes.
+                Aprende a Apostar como un campeon y gana dinero con nuestros pronosticos deportivos
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 {/*   <Link
