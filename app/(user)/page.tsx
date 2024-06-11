@@ -1,15 +1,15 @@
 
 
 import { Metadata } from "next";
-import ScrollUp from '../components/components/Common/ScrollUp';
-import Hero from '../components/components/Hero/index';
-import Brands from '../components/components/Brands/index';
-import Blog from '../components/components/Blog/index';
-import Video from '../components/components/Tutorials/video';
 
 
 
 import Academy from "@/components/components/Tutorials/academy";
+import ScrollUp from "@/components/components/Common/ScrollUp";
+import Hero from "@/components/components/Hero";
+import Blog from "@/components/components/Blog";
+import Brands from "@/components/components/Brands";
+
 
 
 
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-export default function Home() {
+
+
+
+export default async function Home() {
+
+
   return (
     <>
       <ScrollUp />
@@ -30,10 +35,14 @@ export default function Home() {
     
  
      
-      <Blog />
+      <Blog  />
     
+    
+
      {/*  <Features /> */}
-    {/*  <Brands /> */}
+     <Brands />
+
+
   
    
      

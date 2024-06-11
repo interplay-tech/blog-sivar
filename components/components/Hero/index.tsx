@@ -12,12 +12,13 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto max-w-[800px] items-center justify-center"
                 data-wow-delay=".2s"
               >
               
-                 <Image className=" justify-content-center  items-center pb-10" src="/images/logo/Logo.png" width={300} height={100} alt="logo" />
-
+              <div className="flex justify-center pb-10">
+                  <Image src="/images/logo/Logo.png" width={300} height={100} alt="logo" />
+                </div>
 
                 
                 <p className="text-white mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">

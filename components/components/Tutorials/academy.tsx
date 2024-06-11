@@ -3,19 +3,44 @@
 
 
 import Breadcrumb from "@/components/components/Common/Breadcrumb";
-import Video from "@/components/components/Tutorials/video";
-import React from "react";
+import VideoTutorials from "@/components/components/Tutorials/video";
+import React, { useEffect, useState } from "react";
 
 import { tutorials } from "@/components/components/Tutorials/tutorialsData";
 import SectionTitle from "../Common/SectionTitle";
+import { groq } from "next-sanity";
+import { client } from "@/sanity/lib/client";
 
+
+const query = groq
+`*[_type == "author"]{
+  
+  name,
+  slug,
+  image,
+  bio,
+  video: video.asset->url
+} | order(name)
+
+
+  `
 
 
 
 
 const Academy = ( ) => {
 
-  const videoRef = React.useRef<HTMLVideoElement>(null);
+
+  const [authors, setAuthors] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await client.fetch(query);
+      setAuthors(result);
+    };
+
+    fetchData();
+  }, []);
 
 
 
@@ -47,14 +72,12 @@ const Academy = ( ) => {
               <div className="relative aspect-[67/40] items-center justify-center">
               
                 
-                {
-                    tutorials.map((tutorial) => (
-                        <Video key={tutorial.id} tutorials={tutorial} />
-                    ))
+                
+                  
+                        <VideoTutorials posts={authors}  />
+                   
 
 
-                }
-               
             
 
               </div>

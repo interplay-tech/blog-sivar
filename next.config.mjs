@@ -10,6 +10,12 @@ const nextConfig = {
           },
         ],
       },
+      experimental: {
+        taint: true,
+      },
+      images: {
+        domains:["cdn.sanity.io"  ]
+      }
 
 
 };

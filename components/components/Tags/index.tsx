@@ -25,17 +25,17 @@ const Tags = (   ) => {
           </h1>
 
        
-            {allTags.map((tag, index) => (
+          
               <Button
-                key={index}
+              
                 variant="outline"
                
                 size="sm"
                 className="mb-2 mr-2"
               >
-                {tag}
+            
               </Button>
-            ))}
+           
        
         
 

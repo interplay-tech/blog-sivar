@@ -1,16 +1,16 @@
 "use client";
 
 
-import { Providers } from "./providers";
-import Header from '../components/components/Header/index';
-import Footer from '../components/components/Footer/index';
-import ScrollToTop from '../components/components/ScrollToTop/index';
+import { Providers } from "../providers";
+import Header from '../../components/components/Header/index';
+import Footer from '../../components/components/Footer/index';
+import ScrollToTop from '../../components/components/ScrollToTop/index';
 
 
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils"
 
-import "../app/globals.css"
+import "../../app/globals.css"
 
 
 

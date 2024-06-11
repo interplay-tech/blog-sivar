@@ -1,18 +1,17 @@
 "use client"
 
 import { groq } from "next-sanity";
-import Breadcrumb from "../Common/Breadcrumb";
-import SectionTitle from "../Common/SectionTitle";
+import Breadcrumb from "../../../components/components/Common/Breadcrumb";
+import SectionTitle from "../../../components/components/Common/SectionTitle";
 
-import {blogData} from "./blogData";
 import React, { useEffect, useState } from "react";
-import author from '@/sanity/schemaTypes/author';
+
 import { client } from "@/sanity/lib/client";
-import ListBlog from "./ListBlog";
+import SingleBlog from "../../../components/components/Blog/ListBlog";
 
 
 const query = groq 
-`*[_type == "blog"]{
+`*[_type == "blog" && "casino" in categories[]->title]{
   ...,
   author->,
   categories[]->
@@ -23,7 +22,7 @@ const query = groq
 
 
 
-const Blog = ( ) => {
+const Casino = ( ) => {
 
   const [posts, setPosts] = useState([]);
 
@@ -41,21 +40,17 @@ const Blog = ( ) => {
 
   return (
     <section
-      id="blog"
-      className="bg-gray-light  py-1 md:py-2 lg:py-2"
+      id="Deportes"
+      className="bg-gray-light relative z-10  py-16 md:py-20 lg:py-28"
     >
       <div className="container">
         <SectionTitle
-          title="Lo ultimo en noticias"
+          title="Puedes ganar demasiado"
           paragraph="Encuentra las noticias mas recientes de la actualidad en el mundo de los deportes."
           center
         />
 
-<Breadcrumb
-        pageName=""
-        pageLink="/blog"
-        
-        />
+
 
       <section className="pb-[20px] ">
         <div className="container">
@@ -65,7 +60,7 @@ const Blog = ( ) => {
                 
                 className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3"
               >
-                <ListBlog  posts={posts} />
+                <SingleBlog  posts={posts} />
                 
               </div>
            
@@ -80,4 +75,4 @@ const Blog = ( ) => {
   );
 };
 
-export default Blog;
+export default Casino;

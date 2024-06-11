@@ -13,5 +13,6 @@ export type Blog = {
   tags: string[];
   publishDate: string;
   category: string;
+  subCategory: string;
 };
 

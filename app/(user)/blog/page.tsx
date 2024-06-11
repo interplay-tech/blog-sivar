@@ -1,14 +1,15 @@
 "use client"
 
 import { groq } from "next-sanity";
-import Breadcrumb from "../Common/Breadcrumb";
-import SectionTitle from "../Common/SectionTitle";
 
-import {blogData} from "./blogData";
 import React, { useEffect, useState } from "react";
 import author from '@/sanity/schemaTypes/author';
 import { client } from "@/sanity/lib/client";
-import ListBlog from "./ListBlog";
+import SectionTitle from "@/components/components/Common/SectionTitle";
+import Breadcrumb from "@/components/components/Common/Breadcrumb";
+import SingleBlog from "@/components/components/Blog/ListBlog";
+import Tags from "@/components/components/Tags";
+import ListBlog from "@/components/components/Blog/ListBlog";
 
 
 const query = groq 
@@ -26,6 +27,7 @@ const query = groq
 const Blog = ( ) => {
 
   const [posts, setPosts] = useState([]);
+ 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,26 +38,25 @@ const Blog = ( ) => {
     fetchData();
   }, []);
   
-  
+
 
 
   return (
     <section
       id="blog"
-      className="bg-gray-light  py-1 md:py-2 lg:py-2"
+      className="bg-gray-light relative z-10  py-16 md:py-20 lg:py-28"
     >
       <div className="container">
         <SectionTitle
           title="Lo ultimo en noticias"
-          paragraph="Encuentra las noticias mas recientes de la actualidad en el mundo de los deportes."
+          paragraph="Encuentra las noticias mas recientes de la actualidad en el mundo de los deportes"
           center
         />
-
-<Breadcrumb
-        pageName=""
-        pageLink="/blog"
-        
-        />
+<div className="pt-10 pb-10">
+       
+               
+      
+      </div>
 
       <section className="pb-[20px] ">
         <div className="container">

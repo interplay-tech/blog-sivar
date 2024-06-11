@@ -67,7 +67,9 @@ const Header = () => {
             : "absolute  "
           }`}
       >
+
         <div className="container">
+       
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-50 max-w-full px-4 xl:mr-12">
               <Link
@@ -158,21 +160,21 @@ const Header = () => {
 
 
                     
-                        {menuItem.submenu && menuItem.submenu.map((submenu, subIndex) => (
+                        { menuItem.submenu && menuItem.submenu.map((submenu, subIndex) => (
                           <NavigationMenuContent key={subIndex} className="bg-[#202a39]">
                             <ul className="grid w-[800px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[700px] text-white  ">
                              
                                 <NavigationMenuList
                                   className="group flex flex-1 list-none items-center justify-center space-x-1"
                                 >
-                                  {menuItem.submenu && menuItem.submenu.map((submenu, subIndex) => (
+                                 
                                     <NavigationMenuLink key={subIndex}   className="group relative">
 
                                     
                                         {submenu.title}
                                      
                                     </NavigationMenuLink>
-                                  ))}
+                               
                                 </NavigationMenuList>
                               
                             </ul>
@@ -184,9 +186,22 @@ const Header = () => {
 
 
                     ))}
-
-                   
-
+                    <li className="py-2 ">
+                      <button
+                        className="w-full text-left bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary-dark transition duration-300"
+                        onClick={() => { console.log('Botón móvil clickeado!'); }}
+                      >
+                        Juega Ahora
+                      </button>
+                    </li>
+                    <li className="py-2">
+                      <button
+                        className="w-full text-left bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary-dark transition duration-300"
+                        onClick={() => { console.log('Botón móvil clickeado!'); }}
+                      >
+                        Iniciar Sesión
+                      </button>
+                    </li>
 
                   </NavigationMenuList>
 
@@ -194,6 +209,8 @@ const Header = () => {
 
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
+
+              
 
                 {/*    <div>
                   <ThemeToggler />
