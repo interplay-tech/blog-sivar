@@ -60,15 +60,13 @@ export async function getAllPosts() {
         return client.fetch(
              groq`*[_type == "academy"] | order(publishedAt desc) {
                 title,
-                body,
-                slug,
-                publishedAt,
+                
                 mainImage,
-                excerpt,
-                categories[]->{
-                    title,
-                    slug
-                }
+               
+                description,
+                video ->
+    
+                
             }`
         );
     }

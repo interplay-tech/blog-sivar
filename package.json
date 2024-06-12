@@ -26,6 +26,7 @@
     "react-dom": "^18",
     "react-modal-video": "^2.0.1",
     "sanity": "^3.43.0",
+    "sanity-plugin-mux-input": "^2.3.5",
     "styled-components": "^6.1.11",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"

@@ -27,17 +27,16 @@ interface Author extends Base {
     image:Image;
     name:string;
     slug:Slug;
-    video:string;
+    video:Video;
 }
 
 interface Academy extends Base {
     title:string;
-    body:Block[];
-    slug:Slug;
-    publishedAt:Date;
+  
+    description:string;
     mainImage:MainImage;
-    excerpt:string;
-    categories:Category[];
+  
+    video
 }
 
 
@@ -84,11 +83,7 @@ interface MainImage  {
     alt:string;
 }
 
-interface Video {
-    _type:"file";
-    asset:Reference;
-    alt:string;
-}
+
 
 interface Title {
     _type: "string";
@@ -99,3 +94,6 @@ interface Date {
     _type:"date";
     current:string;
 }
+
+
+

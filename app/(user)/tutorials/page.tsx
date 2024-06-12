@@ -13,17 +13,17 @@ import { groq } from "next-sanity";
 import { client } from "@/sanity/lib/client";
 
 const query = groq
-`*[_type == "author"]{
-  
-  name,
-  slug,
-  image,
-  bio,
-  video: video.asset->url
+`*[_type == "academy"]{
+  title,
+ 
+  mainImage,
+  description,
+  video
 } | order(name)
 
 
   `
+
 
 
 
@@ -40,6 +40,7 @@ const Tutorials = ( ) => {
     fetchData();
   }, []);
   
+ 
 
 
 
@@ -58,12 +59,7 @@ const Tutorials = ( ) => {
 
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 pt-20">
-          <div className="w-full px-4">
-            <div className="wow fadeInUp mx-auto max-w-[670px] overflow-hidden rounded-md" data-wow-delay=".15s">
-              <div className="relative aspect-[67/40] items-center justify-center">
-              
-                
-              
+        
                         <VideoTutorials posts={authors} />
                   
                
@@ -71,9 +67,7 @@ const Tutorials = ( ) => {
 
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+        
     </section>
   );
 };
