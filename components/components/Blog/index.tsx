@@ -4,9 +4,9 @@ import { groq } from "next-sanity";
 import Breadcrumb from "../Common/Breadcrumb";
 import SectionTitle from "../Common/SectionTitle";
 
-import {blogData} from "./blogData";
+
 import React, { useEffect, useState } from "react";
-import author from '@/sanity/schemaTypes/author';
+
 import { client } from "@/sanity/lib/client";
 import ListBlog from "./ListBlog";
 

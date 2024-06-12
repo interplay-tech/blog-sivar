@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Blog } from "@/types/blog";
-import { blogData  } from "@/components/components/Blog/blogData";
 
-const allTags = blogData.map((blog) => blog.tags).flat();
+
 
 const Tags = (   ) => {
  
