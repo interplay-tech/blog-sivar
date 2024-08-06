@@ -76,7 +76,7 @@ const Deportes = () => {
   <Button
     onClick={() => handleSubcategory(subcategory.title)}
     key={subcategory.title}
-    className={`p-2 m-2 ${activeSubcategory === subcategory.title ? 'bg-gray-200 text-black' : ' text-white'}`}
+    className={`p-2 m-2 ${activeSubcategory === subcategory.title ? 'bg-[#202a39] text-white hover:bg-[#060c1f]' : 'bg-[#202a39] text-white hover:bg-[#060c1f]'}`}
   >
     {subcategory.title}
   </Button>

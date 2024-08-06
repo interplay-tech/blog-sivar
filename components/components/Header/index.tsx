@@ -188,7 +188,7 @@ const Header = () => {
                     ))}
                     <li className="py-2 ">
                       <button
-                        className="w-full text-left bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary-dark transition duration-300"
+                        className="w-full text-left bg-[#060c1f] text-white font-bold py-2 px-4 rounded hover:bg-[#202a39] transition duration-300"
                         onClick={() => { console.log('Botón móvil clickeado!'); }}
                       >
                         Juega Ahora
@@ -196,7 +196,7 @@ const Header = () => {
                     </li>
                     <li className="py-2">
                       <button
-                        className="w-full text-left bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary-dark transition duration-300"
+                        className="w-full text-left bg-[#060c1f] text-white font-bold py-2 px-4 rounded hover:bg-[#202a39] transition duration-300"
                         onClick={() => { console.log('Botón móvil clickeado!'); }}
                       >
                         Iniciar Sesión

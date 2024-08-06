@@ -4,7 +4,6 @@ import { Metadata } from "next";
 
 
 
-import Academy from "@/components/components/Tutorials/academy";
 import ScrollUp from "@/components/components/Common/ScrollUp";
 import Hero from "@/components/components/Hero";
 import Blog from "@/components/components/Blog";
@@ -31,7 +30,7 @@ export default async function Home() {
       <Hero />
    
    
-      <Academy />
+ 
     
  
      
